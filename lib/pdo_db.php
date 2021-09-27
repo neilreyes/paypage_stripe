@@ -1,11 +1,11 @@
 <?php
-    /*
-   *  PDO DATABASE CLASS
-   *  Connects Database Using PDO
-     *  Creates Prepeared Statements
-     * 	Binds params to values
-     *  Returns rows and results
-   */
+/*
+    * @link https://gist.github.com/bradtraversy a77931605ba9b7cf3326644e75530464
+    *  Connects Database Using PDO
+    *  Creates Prepeared Statements
+    *  Binds params to values
+    *  Returns rows and results
+*/
 class Database
 {
     private $host = DB_HOST;

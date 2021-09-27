@@ -33,7 +33,12 @@ $customer = \Stripe\Customer::create([
     "source" => $token
 ]);
 
-// Charge Customer
+/**
+* Charge Customer
+* @link https://github.com/stripe/stripe-php
+* @link https://stripe.com/docs/development/quickstart#test-api-request
+
+**/
 $charge = \Stripe\Charge::create([
     "amount" => 5000,
     "currency" => "usd",
